@@ -12,7 +12,7 @@ A face recognition system comprises of the following steps:
 
 * Face Recognition: The features of the input image are compared against the features of all the images in the databse and the closest features are identified as the person.
 
-![](<repository_images/Overview-of-the-Steps-in-a-Face-Recognition-Process.png>)
+![](<Overview-of-the-Steps-in-a-Face-Recognition-Process.png>)
 
 ## Code 
 
