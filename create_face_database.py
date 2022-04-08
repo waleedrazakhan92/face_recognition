@@ -12,9 +12,9 @@ import os
 
 if __name__ == "__main__":
     # Load the models
-    predictor = dlib.shape_predictor("HFGI/checkpoints/shape_predictor_68_face_landmarks.dat")
+    predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
     detector = dlib.get_frontal_face_detector()
-    face_rec_model = dlib.face_recognition_model_v1('HFGI/checkpoints/dlib_face_recognition_resnet_model_v1.dat')
+    face_rec_model = dlib.face_recognition_model_v1('dlib_face_recognition_resnet_model_v1.dat')
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--path_dataset", help="Path to dataset")
