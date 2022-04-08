@@ -1,5 +1,5 @@
-# face_recognition
-This repository aims to build a basic face registration and matching system. The input faces are passed through a resnet feature extractor, which converts these images into their embeddings. These embeddings are then stored in a database. Then query image's embeddings are compared against the database and images of indentified person are returned.
+# Face_recognition
+This repository aims to build a basic face registration and matching system. The input faces are passed through a resnet feature extractor, which converts these images into their embeddings. These embeddings are then stored in a database. Then query image's embeddings are compared against the database and images of indentified person are returned. Use the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/waleedrazakhan92/face_recognition/blob/main/face_recognition.ipynb) to run the experiments.
 
 ## Creating a face recognition database
 A face recognition system comprises of the following steps:
