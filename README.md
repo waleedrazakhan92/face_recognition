@@ -14,6 +14,22 @@ A face recognition system comprises of the following steps:
 
 ![](<repository_images/Overview-of-the-Steps-in-a-Face-Recognition-Process.png>)
 
+## Code 
+
+```
+# clone the repository and download resources
+git clone https://github.com/waleedrazakhan92/face_recognition.git
+cd face_recognition/
+```
+
+```
+# download dlib
+!wget https://raw.github.com/ageitgey/face_recognition_models/master/face_recognition_models/models/shape_predictor_68_face_landmarks.dat
+
+# download face recognition model
+!wget https://raw.github.com/ageitgey/face_recognition_models/master/face_recognition_models/models/dlib_face_recognition_resnet_model_v1.dat
+```
+
 Use the ```create_face_database.py``` file to create the database of face embeddings along with their paths. Once run, there would be two output numpy arrays. One containing the embeddings of all the faces in the dataset, and the other containing the paths of all the images. 
 The directory structure to create a database should look like this:
 ```
